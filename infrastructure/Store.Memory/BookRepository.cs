@@ -2,7 +2,7 @@
 {
     public class BookRepository : IBookRepository
     {
-        private readonly Book[] _books = new[]
+        private readonly Book[] _books =
         {
             new Book (1, "Мышление миллионера"),
             new Book (2, "Мастер куннилингуса. Секреты оральных ласк"),
