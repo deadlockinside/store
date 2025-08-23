@@ -42,12 +42,12 @@ namespace Store.Tests
 
             bookPepository.ResultOfGetAllByIsbn = new[]
             {
-                new Book(idOfIsbnSearch, "", "", "")
+                new Book(idOfIsbnSearch, "", "", "", "", 1.00m)
             };
 
             bookPepository.ResultOfGetAllByTitleOrAutor = new[]
             {
-                new Book(idOfAutorSearch, "", "", "")
+                new Book(idOfAutorSearch, "", "", "", "", 1.00m)
             };
 
             var bookService = new BookService(bookPepository);
@@ -66,12 +66,12 @@ namespace Store.Tests
 
             bookPepository.ResultOfGetAllByIsbn = new[]
             {
-                new Book(idOfIsbnSearch, "", "", "")
+                new Book(idOfIsbnSearch, "", "", "", "", 1.00m)
             };
 
             bookPepository.ResultOfGetAllByTitleOrAutor = new[]
             {
-                new Book(idOfAutorSearch, "", "", "")
+                new Book(idOfAutorSearch, "", "", "", "", 1.00m)
             };
 
             var bookService = new BookService(bookPepository);
