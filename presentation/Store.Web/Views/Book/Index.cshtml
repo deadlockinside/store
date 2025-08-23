@@ -1,0 +1,11 @@
+﻿@using Store
+@model Book
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<h1>@Model.Title</h1>
+<p><strong>@Model.Autor</strong></p>
+<p>@Model.Description</p>
+<p>Цена: <strong>@Model.Price</strong> руб.</p>
