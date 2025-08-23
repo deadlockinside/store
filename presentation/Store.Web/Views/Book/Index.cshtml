@@ -9,3 +9,7 @@
 <p><strong>@Model.Autor</strong></p>
 <p>@Model.Description</p>
 <p>Цена: <strong>@Model.Price</strong> руб.</p>
+<form action="@Url.Action("Add", "Cart")" method="post">
+    <input type="hidden" name="id" value="@Model.Id"/>
+    <button class="btn btn-outline-success" type="submit">В корзину</button>
+</form>
